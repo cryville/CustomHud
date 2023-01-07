@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "world.cryville.customhud",
+		"name": "Custom HUD",
+		"description": "",
+		"version": "${version}",
+		"mcversion": "${mcversion}",
+		"url": "",
+		"updateUrl": "",
+		"authorList": ["Cryville"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"dependencies": []
+	}
+]
