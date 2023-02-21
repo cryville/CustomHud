@@ -14,6 +14,7 @@ public class HudRenderer {
 		for (Integer index : CustomHud.huds.keySet()) {
 			Hud hud = CustomHud.huds.get(index);
 			int tw = 0;
+			if (hud.content == null) continue;
 			for (String l : hud.content) {
 				int ltw = renderer.getStringWidth(l);
 				if (ltw > tw) tw = ltw;
